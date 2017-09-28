@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <PreferenceScreen
+        android:key="device_name_screen"
+        android:title="@string/device_info_name_title"
+        tools:summary="Android" />
+
+    <PreferenceScreen
+        android:key="device_brand_screen"
+        android:title="@string/device_info_brand_title"
+        tools:summary="Android" />
+
+    <PreferenceScreen
+        android:key="device_version_screen"
+        android:title="@string/device_info_version_title"
+        tools:summary="1.0.0" />
+
+    <PreferenceScreen
+        android:key="device_code_name_screen"
+        android:title="@string/device_info_code_name_title"
+        tools:summary="Base" />
+
+</PreferenceScreen>

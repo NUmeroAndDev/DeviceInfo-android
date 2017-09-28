@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DeviceInfo</string>
+
+    <string name="device_info_name_title">Device Name</string>
+    <string name="device_info_brand_title">Brand</string>
+    <string name="device_info_version_title">Version</string>
+    <string name="device_info_code_name_title">Code Name</string>
 </resources>

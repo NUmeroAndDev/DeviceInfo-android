@@ -34,6 +34,7 @@ public class DeviceInfoFragment extends PreferenceFragment {
         deviceNameScreen.setSummary(deviceInfo.getName());
         deviceBrandScreen.setSummary(deviceInfo.getBrand());
         deviceVersionScreen.setSummary(deviceInfo.getVersion());
-        deviceCodeNameScreen.setSummary(deviceInfo.getCodeName());
+        // TODO コードネームに変換
+        deviceCodeNameScreen.setSummary(String.valueOf(deviceInfo.getApi()));
     }
 }

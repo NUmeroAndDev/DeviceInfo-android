@@ -8,14 +8,12 @@ public class DeviceInfo {
     private String brand;
     private int api;
     private String version;
-    private String codeName;
 
     public DeviceInfo() {
         this.name = Build.MODEL;
         this.brand = Build.BRAND;
         this.api = Build.VERSION.SDK_INT;
         this.version = Build.VERSION.RELEASE;
-        this.codeName = Build.VERSION.CODENAME;
     }
 
     public String getName() {
@@ -32,9 +30,5 @@ public class DeviceInfo {
 
     public String getVersion() {
         return version;
-    }
-
-    public String getCodeName() {
-        return codeName;
     }
 }
